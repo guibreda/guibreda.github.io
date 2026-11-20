@@ -1,0 +1,26 @@
+[
+  {
+    "_ajuda": "Para ADICIONAR uma clínica, copie um bloco inteiro (de { até }) e mude os dados. Para REMOVER, apague o bloco ou troque 'ativa' para false. Depois rode: node build.js",
+    "_atencao": "Os textos abaixo são genéricos e provisórios. Revise 'resumo', 'descricao' e 'destaques' com as informações reais da clínica (estrutura, equipe, rotina) antes de publicar.",
+    "ativa": true,
+    "slug": "alambari",
+    "nome": "Unidade Alambari",
+    "cidade": "Alambari",
+    "uf": "SP",
+    "publico": ["masculino"],
+    "tratamentos": ["voluntaria", "involuntaria", "compulsoria", "alcool", "quimica"],
+    "resumo": "Clínica parceira localizada em Alambari/SP para tratamento de dependência química e alcoolismo, com remoção própria até a unidade.",
+    "descricao": "Nossa clínica parceira fica em Alambari, interior de São Paulo. As informações sobre estrutura, equipe técnica, licenças e documentos são apresentadas pela própria clínica, que é a responsável técnica pelo tratamento. Fale com a nossa equipe para conhecer os detalhes e agendar uma conversa antes de qualquer decisão.",
+    "destaques": [
+      "Localizada em Alambari/SP",
+      "Internação voluntária, involuntária e compulsória (mediante documentação legal)",
+      "Tratamento de dependência química e de álcool",
+      "Remoção própria até a unidade",
+      "Orientação à família 24 horas pela nossa equipe"
+    ],
+    "fotos": [],
+    "_fotos_ajuda": "Coloque as imagens na pasta assets/img/clinicas/ e liste aqui, por exemplo: [\"/assets/img/clinicas/alambari-1.jpg\", \"/assets/img/clinicas/alambari-2.jpg\"]. A primeira vira a foto de capa.",
+    "responsavelTecnico": "Informado pela clínica parceira",
+    "licencas": "Alvará e licenças sanitárias apresentados pela clínica parceira mediante solicitação"
+  }
+]

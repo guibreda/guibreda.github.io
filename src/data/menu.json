@@ -1,0 +1,9 @@
+[
+  { "rotulo": "Início", "url": "/" },
+  { "rotulo": "Sobre", "url": "/sobre/" },
+  { "rotulo": "Tratamentos", "url": "/tratamentos/", "filhos": "tratamentos" },
+  { "rotulo": "Clínicas", "url": "/unidades/" },
+  { "rotulo": "Remoção", "url": "/remocao/", "filhos": "remocao" },
+  { "rotulo": "Blog", "url": "/blog/" },
+  { "rotulo": "Contato", "url": "/contato/" }
+]

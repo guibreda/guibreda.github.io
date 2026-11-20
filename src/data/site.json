@@ -1,0 +1,49 @@
+{
+  "_ajuda": "Dados gerais do site. Edite apenas os textos entre aspas. Depois rode: node build.js",
+  "nome": "CT Viva Feliz",
+  "slogan": "Encaminhamento para tratamento de dependência química e alcoolismo",
+  "descricaoCurta": "Orientamos famílias de todo o Brasil e encaminhamos para clínicas parceiras de tratamento de dependência química e álcool, com remoção própria e atendimento 24 horas.",
+  "url": "https://www.ctvivafeliz.com.br",
+  "cnpj": "06.988.479/0001-00",
+  "email": "contato@ctvivafeliz.com.br",
+  "horario": "Atendimento 24 horas",
+  "telefones": [
+    { "nome": "Roberto Breda", "papel": "Encaminhamento e remoção", "exibicao": "(15) 99855-0080", "numero": "5515998550080" },
+    { "nome": "Sonia Breda", "papel": "Psicóloga - CRP 06/2005-0", "exibicao": "(15) 99724-4085", "numero": "5515997244085" }
+  ],
+  "whatsappPrincipal": "5515998550080",
+  "mensagemWhatsapp": "Olá, estou no site da CT Viva Feliz e gostaria de mais informações.",
+  "endereco": {
+    "rua": "Rua Luiza Matiello Hanser, 131",
+    "bairro": "Jardim Pagliato",
+    "cidade": "Sorocaba",
+    "uf": "SP",
+    "_obs": "Endereço copiado do site atual. Confirme se continua válido."
+  },
+  "redes": {
+    "facebook": "https://www.facebook.com/bredainternacao",
+    "instagram": "https://www.instagram.com/arobertobreda/"
+  },
+  "formulario": {
+    "_ajuda": "Se 'endpoint' ficar vazio, o formulário abre o WhatsApp já preenchido. Para receber por e-mail, crie um formulário em formspree.io e cole a URL aqui.",
+    "endpoint": ""
+  },
+  "analytics": {
+    "_ajuda": "Cole o ID do Google tag (ex.: G-XXXXXXX ou AW-XXXXXXX). Só é carregado depois que o visitante aceita os cookies.",
+    "gtagId": ""
+  },
+  "profissionais": [
+    {
+      "nome": "Sonia Breda",
+      "titulo": "Psicóloga - CRP 06/2005-0",
+      "foto": "/assets/img/sonia-breda.jpg",
+      "texto": "Acolhe as famílias no primeiro contato, escuta a história do paciente e orienta sobre o melhor caminho de tratamento."
+    },
+    {
+      "nome": "Roberto Breda",
+      "titulo": "Responsável pelo encaminhamento e pela remoção",
+      "foto": "/assets/img/roberto-breda.gif",
+      "texto": "Coordena os encaminhamentos e a equipe de remoção própria, com discrição e respeito ao paciente em todo o trajeto."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "_ajuda": "Perguntas do formulário de contato. Tipos: text, tel, email, select, textarea. Para mudar uma pergunta, edite 'label'. Para as opções de 'select', edite a lista 'opcoes'.",
+  "campos": [
+    { "id": "nome", "label": "Seu nome", "tipo": "text", "obrigatorio": true },
+    { "id": "telefone", "label": "Seu telefone com WhatsApp (DDD)", "tipo": "tel", "obrigatorio": true },
+    { "id": "relacao", "label": "Quem precisa de tratamento?", "tipo": "select", "obrigatorio": true,
+      "opcoes": ["Eu mesmo(a)", "Meu filho(a)", "Meu cônjuge ou companheiro(a)", "Outro familiar", "Amigo(a) ou outra pessoa"] },
+    { "id": "cidade", "label": "Cidade e estado do paciente", "tipo": "text", "obrigatorio": true },
+    { "id": "substancia", "label": "Qual a principal dependência?", "tipo": "select", "obrigatorio": false,
+      "opcoes": ["Álcool", "Drogas", "Álcool e drogas", "Não sei informar"] },
+    { "id": "atendimento", "label": "Que tipo de atendimento procura?", "tipo": "select", "obrigatorio": false,
+      "opcoes": ["Internação voluntária", "Internação involuntária", "Internação compulsória (judicial)", "Tratamento sem internação", "Remoção / traslado", "Ainda não sei, preciso de orientação"] },
+    { "id": "urgencia", "label": "Qual a urgência?", "tipo": "select", "obrigatorio": false,
+      "opcoes": ["É urgente (risco imediato)", "Nos próximos dias", "Estou apenas me informando"] },
+    { "id": "mensagem", "label": "Quer contar algo mais? (opcional)", "tipo": "textarea", "obrigatorio": false }
+  ]
+}
